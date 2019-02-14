@@ -61,16 +61,37 @@ padding: 0 10px;
   max-width:$max-content-width;
 }
 
-.hero img{
-  max-width:100%;
-  margin-bottom:3vw;
+.hero{
+  position:relative;
+  img{
+    max-width:100%;
+    margin-bottom:3vw;
+  }
 }
+
+.hero-banner{
+  @include banner-style;
+  bottom:15%;
+  left:10%;
+  right:10%;
+}
+
 .half-wrapper{
   display:flex;
 }
 
-.half img{
+
+.half {
+  position:relative;
+  img{
   width:100%;
+  }
+}
+
+.half-banner{
+  @include banner-style;
+  top:50%;
+  transform: translateY(-50%);
 }
 
 .left-half{

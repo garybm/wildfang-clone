@@ -3,3 +3,12 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin banner-style{
+  position:absolute;
+  color:white;
+  background-color: $t-black;
+  text-align:center;
+  font-size:2vw;
+  padding:1vw;
+}

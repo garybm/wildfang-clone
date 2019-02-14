@@ -58,15 +58,40 @@ nav {
   margin-top: 140px;
   max-width: 1700px; }
 
-.hero img {
-  max-width: 100%;
-  margin-bottom: 3vw; }
+.hero {
+  position: relative; }
+  .hero img {
+    max-width: 100%;
+    margin-bottom: 3vw; }
+
+.hero-banner {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 2vw;
+  padding: 1vw;
+  bottom: 15%;
+  left: 10%;
+  right: 10%; }
 
 .half-wrapper {
   display: flex; }
 
-.half img {
-  width: 100%; }
+.half {
+  position: relative; }
+  .half img {
+    width: 100%; }
+
+.half-banner {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 2vw;
+  padding: 1vw;
+  top: 50%;
+  transform: translateY(-50%); }
 
 .left-half {
   margin-right: 1.5vw; }
