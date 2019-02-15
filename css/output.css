@@ -12,7 +12,8 @@ a {
 nav {
   position: fixed;
   width: 100%;
-  background-color: white; }
+  background-color: white;
+  z-index: 1; }
 
 .upper-nav {
   display: flex;
@@ -133,5 +134,18 @@ nav {
 .fav-title {
   text-align: center;
   padding-bottom: .5vw; }
+
+@media screen and (max-width: 400px) {
+  .half-wrapper {
+    flex-direction: column; }
+
+  .favorites {
+    flex-wrap: wrap; }
+
+  .favorite-content {
+    width: 45vw; } }
+@media screen and (max-width: 1700px) and (min-width: 400px) {
+  .favorites {
+    flex-direction: row; } }
 
 /*# sourceMappingURL=output.css.map */
